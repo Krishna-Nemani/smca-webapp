@@ -1,12 +1,19 @@
-# React + Vite
+# Stock Market Consultant Agent - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The frontend application allows users to:
+- Enter their stock portfolio.
+- Receive actionable advice (buy, sell, hold, diversify) in simple terms.
+- Track the number of advice queries and portfolios analyzed.
+- View billing information per advice or portfolio analyzed.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Portfolio input UI for users.
+- Advice generation display (buy/sell/hold/diversify).
+- Usage counters for advice queries and portfolio analysis.
+- Billing display per advice and per portfolio.
+- Optional live stock data integration via Pathway.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
